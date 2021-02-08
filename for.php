@@ -6,8 +6,9 @@
 <body>
 
 <?php
-for($i= 1; $i <=5; $i++)
-echo "$i <br>";
+$a = array(4,8,14,16,23,42);
+for($i= 0; $i <=count($a); $i++)
+echo "$a[$i] <br>";
 
 ?>
 
